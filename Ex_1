@@ -1,0 +1,11 @@
+# a="5"
+# b="3"
+# a,b=b,a
+# print(a)
+# print(b)
+def c(num1,num2):
+    num1,num2=num2,num1
+    return num1,num2
+A,B=c("Luke",4)
+print(A)
+print(B)
